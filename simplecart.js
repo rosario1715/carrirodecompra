@@ -323,7 +323,7 @@ function Cart(){
 		var me = this;
 		
 		
-		if( me.currency !== USD && me.currency !== GBP ){
+		if( me.currency !== MXN && me.currency !== MXN ){
 			error( "Google Checkout only allows the USD and GBP for currency.");
 			return;
 		} else if( me.merchantId === "" || me.merchantId === null || !me.merchantId ){
